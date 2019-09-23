@@ -12,6 +12,8 @@ const UserForm = ({ values, errors, touched, status }) => {
         }
     }, [status])
 
+    console.log(users)
+
     return (
         <div className="userForm">
             <Form>
